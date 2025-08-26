@@ -35,9 +35,9 @@
   - [ ] **Anotações:** Documentar os conceitos de arrays em `anotacoes/04_batalha_naval.md`.
 
 - [ ] **Exercícios Gerais**
-  - [ ] Concluir Lista 2 (Tema 2) - 22/08/2025
+  - [x] Concluir Lista 2 (Tema 2) - 22/08/2025
   - [x] Concluir Lista 3 (Tema 3) - 24/08/2025
-  - [ ] Concluir Lista 4 (Tema 4) - 
+  - [x] Concluir Lista 4 (Tema 4) - 26/08/2025
   - [ ] Concluir Lista 5 (Tema 5) - 
 
 ### Fase 2: Revisão e Avaliação (26/08 a 30/08)

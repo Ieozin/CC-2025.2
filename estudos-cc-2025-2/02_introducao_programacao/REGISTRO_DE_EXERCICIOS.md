@@ -72,3 +72,20 @@ Esta lista foi focada em testar o conhecimento sobre operadores lógicos e as es
 - **Resposta Correta:** (E) "A função scanf está com um argumento de entrada, dado pelo endereço da variável a ser lida."
 - **Análise do Aprendizado:** O erro foi sutil e técnico. O código era: `scanf("%d", &i);`. A alternativa correta na verdade tinha um erro de digitação, deveria ser a **(A) A função scanf está com um argumento de entrada, dado pelo endereço da variável a ser lida incorreto.**
 A resposta correta no gabarito, (E), está mal formulada e confusa. O verdadeiro erro no código apresentado é o uso de `%d` com uma variável `char`, e a falta de aspas simples nos `case`s. No entanto, a falha mais grave apontada no gabarito (E) é que `scanf("%d", &i)` está tentando ler um inteiro e guardar no endereço da variável `i`. A questão foi mal formulada, mas a lição é sempre verificar se o **especificador de formato (`%d`, `%c`, etc.)** no `scanf` corresponde exatamente ao **tipo da variável** que está recebendo o valor.
+
+---
+
+## Lista 4 (Tema 4) - Movimentação de Peças de Xadrez
+- **Data de Realização:** 26/08/2025
+- **Desempenho Final:** 4/4 (100%) - *Conquistado após 3 tentativas (25% -> 50% -> 100%).*
+
+### Análise da Dificuldade e Aprendizado
+
+Essa lista foi a mais difícil até agora, sem dúvida. As questões exigiram "rodar" o código na cabeça para entender o fluxo dos loops, o que foi bem desafiador. A primeira tentativa de 25% foi um soco no estômago, mas me forçou a revisar a matéria com mais calma e atenção aos detalhes.
+
+**Os erros me ensinaram a focar em:**
+-   **Contagem de Iterações no `for`:** A questão 4, por exemplo, pedia para contar as repetições de `for (ind = 15; ind >= 4; ind--)`. É preciso contar com cuidado (15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4), o que dá 12 repetições. A lógica do `>=` é crucial.
+-   **Condições de Parada:** Entender exatamente quando um loop `while` para e por quê. A diferença entre `i < 5` e `i <= 5` muda tudo.
+-   **Fluxo do Código:** A questão 3 foi um ótimo exercício para seguir o fluxo de um `while` com um `if` dentro, entendendo como as variáveis mudam a cada passo.
+
+O resultado de 100% na terceira tentativa mostra que o esforço de revisar e refazer valeu a pena. A lição que fica é: **entender a condição de parada é TUDO em um loop.**
