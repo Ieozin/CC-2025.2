@@ -10,7 +10,7 @@ Bem-vindo ao meu repositório de estudos! Este espaço é dedicado a documentar 
 | Introdução à Segurança da Informação | ✅ Concluída |
 | Computação em Nuvem | ✅ Concluída |
 | **Pensamento Computacional** | ✅ Concluída |
-| **Introdução à Programação** | ⏳ Em andamento |
+| **Introdução à Programação** | ✅ Concluída |
 
 ## 📁 Estrutura do Repositório
 
