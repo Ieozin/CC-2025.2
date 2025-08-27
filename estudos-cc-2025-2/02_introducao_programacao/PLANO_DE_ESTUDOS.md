@@ -34,11 +34,11 @@
   - [ ] **Prática:** Desenvolver o jogo Batalha Naval em `exercicios/batalha_naval.c`.
   - [ ] **Anotações:** Documentar os conceitos de arrays em `anotacoes/04_batalha_naval.md`.
 
-- [ ] **Exercícios Gerais**
-  - [x] Concluir Lista 2 (Tema 2) - 22/08/2025
-  - [x] Concluir Lista 3 (Tema 3) - 24/08/2025
+- [x] **Exercícios Gerais - CONCLUÍDOS**
+  - [x] Concluir Lista 1 e 2 (Tema 2) - 22/08/2025
+  - [x] Concluir Lista 3 (Tema 3) - 25/08/2025
   - [x] Concluir Lista 4 (Tema 4) - 26/08/2025
-  - [ ] Concluir Lista 5 (Tema 5) - 
+  - [x] Concluir Lista 5 (Tema 5) - 26/08/2025
 
 ### Fase 2: Revisão e Avaliação (26/08 a 30/08)
 - [ ] **27/08:** Revisão geral e depuração dos códigos.

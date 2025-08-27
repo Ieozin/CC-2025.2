@@ -89,3 +89,30 @@ Essa lista foi a mais difícil até agora, sem dúvida. As questões exigiram "r
 -   **Fluxo do Código:** A questão 3 foi um ótimo exercício para seguir o fluxo de um `while` com um `if` dentro, entendendo como as variáveis mudam a cada passo.
 
 O resultado de 100% na terceira tentativa mostra que o esforço de revisar e refazer valeu a pena. A lição que fica é: **entender a condição de parada é TUDO em um loop.**
+
+---
+
+## Lista 5 (Tema 5) - Jogo de Batalha Naval
+- **Data de Realização:** 26/08/2025
+- **Desempenho:** 6/10 (60%)
+
+### Análise dos Erros (Pontos-Chave de Aprendizado)
+
+Esta última lista foi focada em conceitos de vetores e matrizes (arrays). Os erros foram conceituais e me ajudam a focar a revisão final nos pontos certos.
+
+#### **Questão 1: Conceitos de Vetores e Matrizes**
+- **Pergunta:** Avaliar assertivas sobre vetores e matrizes.
+- **Meu Erro:** Marquei a alternativa (C) `I, III e IV`.
+- **Resposta Correta:** (A) `III e IV`.
+- **Análise do Aprendizado:** Meu principal erro foi considerar a afirmativa I ("Os vetores são estruturas homogêneas, pois somente armazenam dados inteiros") como correta. A palavra-chave aqui é "inteiros". Vetores são homogêneos, sim, mas podem armazenar **qualquer tipo de dado** (`float`, `char`, etc.), não apenas `int`. As afirmativas corretas eram a III (matrizes são acessadas por 2 índices) e a IV (vetores podem armazenar dados homogêneos). Foi um erro de atenção ao detalhe da palavra "inteiros".
+
+#### **Questão 6: Aplicação de Vetores**
+- **Pergunta:** Completar a frase sobre o uso de um vetor para notas de alunos.
+- **Meu Erro:** Marquei (A) "calcular, inteiros, soma".
+- **Resposta Correta:** (B) "manusear, reais, média".
+- **Análise do Aprendizado:** O erro foi conceitual. Notas, por poderem ter casas decimais (ex: 7.5), são melhor representadas por números **reais** (`float` ou `double`), não inteiros. O objetivo de analisar as notas é calcular a **média**, não apenas a soma. A palavra-chave para o uso do vetor é **manusear** os dados de forma organizada.
+
+#### **Questão 9: Algoritmo para Encontrar o Menor Valor**
+- **Pergunta:** Qual operação o algoritmo deve executar para identificar a menor temperatura em um vetor?
+- **Meu Erro:** Marquei (E) "Escolher a temperatura que mais se aproxima de zero".
+- **Resposta Correta:** (C)
